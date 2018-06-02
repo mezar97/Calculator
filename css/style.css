@@ -1,0 +1,153 @@
+body {
+    background: #f2f2f2;
+}
+
+.zmarta-logo{
+    width: 25%;
+    border-radius: 85px;
+    float: left;
+}
+.zmarta-logo{
+	-webkit-animation: rotate-vert-center 0.9s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: rotate-vert-center 0.9s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+
+@-webkit-keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+@keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+
+h2 {
+    margin-top: 0%;
+    margin-left: 37%;
+    color: #18365b;
+    font-family: "Lato", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 40px;
+    text-align: left;
+
+}
+
+.bel{
+    display: -webkit-box;
+}
+
+h2 i {
+    font-weight: 300;
+}
+
+h2 b {
+    color: #e37818;
+}
+
+.text{
+    text-align: left;
+    width: 100px;
+    margin-right: 35%;
+    font-size: 20px;
+    color: #000000;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: white;
+    margin-top: 7px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.result{
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: white;
+    margin-top: 7px;
+    height: 35px;
+    text-align: center; 
+    color: #da8b2d;
+    font-size: 20px
+}
+
+.min{
+    margin-right: 68%;
+}
+.mix{
+    margin-right: 75%;
+}
+
+.nr{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.private-loan-calculator {
+    background: #e7ebee;
+    border-radius: 8px;
+    box-shadow: 0 0 7px rgba(0,0,0,.3);
+    padding: 40px 50px;
+    text-align: center;
+    width: 37%;
+    margin-left: 25%;
+}
+
+.slider {
+    background: #e7ebee;
+    border-bottom: solid 1px white;
+    border-radius: 10px;
+    border-top: solid 0px #bcbfc1;
+    height: 6px;
+    position: relative;
+    width: 75%;
+}
+
+
+
+
+
+.slider .range {
+    background: #da8b2d;
+    box-shadow: none!important;
+    height: 6px;
+    width: 125%;
+}
+
+.slider .range1{
+    background: #da8b2d;
+    box-shadow: none!important;
+    height: 6px;
+    width: 125%;
+}
+
+.distans{
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #f50202;
+    background: #030303 ;
+    font-weight: normal;
+    color: #555555;
+    border-radius: 30px;
+}

@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Calculator</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>    
+    <div class="private-loan-calculator">
+            <div >
+                    <img  class="zmarta-logo" src="img/EHTTr5lp_400x400.jpg" alt="" srcset="">
+                </div>
+        <h2>Räkna ut <i>din</i> månadskostnad för <b>privatlån</b></h2>
+        <div class="bel">
+           <p class="text"> Belopp</p>
+            <input type="text" id="amount" value="100000"/>
+        </div>
+        <span class="distans">
+            <div class="slider"> 
+                <div class="range"></div>
+                <div class="slider-handle"></div>
+            </div> 
+            <p class="nr"> <span class="min"> 5000kr</span>  400000kr</p>
+
+        </span>
+        <div class="bel">
+           <P class="text">återbetalningstid</P>
+            <input type="text" id="repayment" value="15" />
+        </div>
+        <span class="distans">
+            <div class="slider"> 
+                <div class="range1"></div>
+                <div class="slider-handle";></div>
+            </div> 
+            <p class="nr"> <span class="mix">1 år</span>  15år</p>
+        </span>
+        <div class="bel">
+           <p class="text">Månadskostnad</p> 
+            <input class="result" type="text" disabled="" id="monthly_cost" />
+        </div>
+        <p>Beräknat med räntan 13.40</p>
+     
+       
+    </div>
+<script src="js/app.js"></script>
+</body>
+</html>
+
