@@ -63,30 +63,30 @@ h2 b {
 .text{
     text-align: left;
     width: 100px;
-    margin-right: 35%;
+    margin-right: 30%;
     font-size: 20px;
     color: #000000;
 }
 
 input{
     border-radius: 5px;
-    border: 1px solid #000000;
+    border: 1px solid #da8b2d;
     background-color: white;
     margin-top: 7px;
     height: 35px;
     text-align: center;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .result{
     border-radius: 5px;
-    border: 1px solid #000000;
+    border: 1px solid #da8b2d;
     background-color: white;
     margin-top: 7px;
     height: 35px;
     text-align: center; 
     color: #da8b2d;
-    font-size: 20px
+    font-size: 14px
 }
 
 .min{
